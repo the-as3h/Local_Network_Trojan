@@ -1,5 +1,5 @@
 import socket
-host='192.168.0.103'
+host='xxx.xxx.xxx.xxx' #Enter the ip address of your machine
 port=9000
 server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 server.bind((host,port))
